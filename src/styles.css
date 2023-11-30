@@ -1,0 +1,51 @@
+body {
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+.container p {
+  text-align: center;
+  margin-top: -10px;
+  border-bottom: 1px dashed black;
+  padding-bottom: 10px;
+}
+.card {
+  padding: 10px;
+  max-width: 600px;
+  box-shadow: 5px 5px 5px;
+}
+select {
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.city-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.city {
+  margin-top: 10px;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.time {
+  font-size: 30px;
+}
+.date {
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}

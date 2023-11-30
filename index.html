@@ -14,22 +14,34 @@
     />
   </head>
   <body>
-    <h1>World Clock</h1>
     <div class="container">
-      <div class="card">
-        <select value="timezones">
+      <h1>World Clock</h1>
+      <p>Explore the timezones of different cities</p>
+      <div class="card mx-auto border-dark">
+        <select>
+          <option value="">Select a city</option>
           <option value="london">London🇬🇧</option>
-          <option value="Mexico">Mexico🇬🇧</option>
-          <option value="tokyo">Tokyo🇬🇧</option>
-          <option value="poland">Poland🇬🇧</option>
+          <option value="Mexico">Mexico🇲🇽</option>
+          <option value="japan">Japan🇯🇵</option>
+          <option value="poland">Poland🇵🇱</option>
         </select>
-        <div class="cities">
-          <div class="los-angeles">L.A🇫🇮</div>
-          <div class="date">August 10th</div>
-          <div class="time">11:55</div>
-          <div class="france">France🇮🇱</div>
-          <div class="date">August 10th</div>
-          <div class="time">11:55</div>
+        <div class="city-container">
+          <div class="city">
+            <div class="america">America 🇺🇸</div>
+          </div>
+          <div class="time-date">
+            <div class="time">11:55</div>
+            <div class="date">August 10th</div>
+          </div>
+        </div>
+        <div class="city-container">
+          <div class="city">
+            <div class="france">France 🇫🇷</div>
+          </div>
+          <div class="time-date">
+            <div class="time">11:55</div>
+            <div class="date">August 10th</div>
+          </div>
         </div>
       </div>
     </div>
