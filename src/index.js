@@ -32,7 +32,9 @@ function updateTimezone(event) {
               <div class="time">${cityTime.format("h:mm A")}</div>
               <div class="date">${cityTime.format("dddd, Do MMMM")}</div>
             </div>
-          </div>`;
+          </div>
+          <div class="link">
+           <a href="/"> All Timezones </a> </div>`;
 }
 updateTime();
 setInterval(updateTime, 60000);
