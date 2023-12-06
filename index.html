@@ -20,29 +20,31 @@
       <h1>World Clock</h1>
       <p>Explore the timezones of different cities</p>
       <div class="card mx-auto border-dark">
-        <select>
+        <select id="cities">
           <option value="">Select a city</option>
-          <option value="london">London🇬🇧</option>
-          <option value="Mexico">Mexico🇲🇽</option>
-          <option value="japan">Japan🇯🇵</option>
-          <option value="poland">Poland🇵🇱</option>
+          <option value="Europe/London">London🇬🇧</option>
+          <option value="Mexico/BajaSur">BajaSur🇲🇽</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+          <option value="Europe/Warsaw">Warsaw🇵🇱</option>
         </select>
-        <div class="city-container" id="america">
-          <div class="city">
-            <div class="america">New York 🇺🇸</div>
+        <div id="timezones">
+          <div class="city-container" id="america">
+            <div class="city">
+              <div class="america">New York 🇺🇸</div>
+            </div>
+            <div class="time-date">
+              <div class="time"></div>
+              <div class="date"></div>
+            </div>
           </div>
-          <div class="time-date">
-            <div class="time"></div>
-            <div class="date"></div>
-          </div>
-        </div>
-        <div class="city-container" id="france">
-          <div class="city">
-            <div class="france">Paris 🇫🇷</div>
-          </div>
-          <div class="time-date">
-            <div class="time"></div>
-            <div class="date"></div>
+          <div class="city-container" id="france">
+            <div class="city">
+              <div class="france">Paris 🇫🇷</div>
+            </div>
+            <div class="time-date">
+              <div class="time"></div>
+              <div class="date"></div>
+            </div>
           </div>
         </div>
       </div>
